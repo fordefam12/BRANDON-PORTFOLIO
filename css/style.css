@@ -28,3 +28,39 @@ video {
 p {
   color: blue;
 }
+
+/* hero styles */
+.hero-box {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 0px ;
+    /* up and down  */
+    align-content: center;
+    /* left and right  */
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.hero-image-box {
+    /* sets height for full screen size of all devices */
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    /* grid 1/-1 means start at the top and end at the bottom */
+    grid-column: 1/ -1;
+    grid-row: 1/-1;
+
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-text-box {
+    grid-column: 1/ -1;
+    grid-row: 1/-1;
+}
