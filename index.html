@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <!-- added title of portfolio -->
     <title>Brandon's Portfolio</title>
   
   </head>
   <body>
-    <header>
+    <div>
       <nav> 
         <h1>Brandon Forde</h1>
       
@@ -23,7 +23,7 @@
           <li>Resume</li>
         </ul>
         </nav>
-  </header>
+  </div>
     <section class="hero-box">
         <figure class="hero-image-box">
 
@@ -48,16 +48,34 @@
 <section>
         <h2>Work</h2>
         <!-- fit images in boxes -->
-        <article> 
-          <div>
-            <img src="./images/birds.jpg" alt="birds"> 
-          </div>
-          <div> <img src="./images/forest.jpg" alt="forest"></div>
-          <div> <img src="./images/love.jpg" alt="tree of love"></div>
-          <div> <img src="./images/birds.jpg" alt="birds"></div>
-          <div>box5</div>
-          work boxes 
-        </article>
+        <main>
+          <section class="card">
+            <div>floating birds</div>
+            <img src="./images/birds.jpg" alt="birds" />
+          </section>
+
+          <section class="card">
+            <div>forest waters</div>
+            <img src="./images/forest.jpg" style="width: 50%; height: 50%"/  alt="forest">
+            
+          </section>
+
+          <section class="card">
+            <div>tree of love</div>
+            <img src="./images/love.jpg" style="width: 50%; height: 50%"/  alt="tree of love">
+          </section>
+
+          <section class="card">
+            <div>tree of life</div>
+            <img src="./images/tree-736885_1280.jpg" style="width: 25%; height: 50%"/  alt="tree of life">
+          </section>
+
+          <section class="card">
+            <div>mountain views</div>
+            <img src="./images/mountain.jpg" style="width: 50%; height: 50%"/  alt="mountains">
+          </section>
+
+        </main>
       </section>
 
         <h2>Contact Me</h2>
@@ -74,3 +92,6 @@
     </section>
   </body>
 </html>
+
+
+

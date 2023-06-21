@@ -34,6 +34,16 @@ ul {display: flex;
   
   
 }
+section {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  z-index: 2;
+}
+div{
+  justify-content: center
+}
 
 
 
@@ -46,9 +56,14 @@ article {
   border: 1px solid red;
   b
 }
-div {
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   
-}
+  }
+
 
 li {
   display: flex;
@@ -86,11 +101,21 @@ p{
 
     
 }
+div {
+  padding: 60px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
 
-
-.hero-image {
-    width: auto;
-    height: 100%;
+}
+.card {
+  border-style: solid;
+  border-width: 1px;
+  padding: 10px;
+  float: left;
+  width: 25%;
+  justify-content:center;
+   
     
 }
 
@@ -113,8 +138,14 @@ p{
     height: 33%;
     margin-top: auto;
 }
-
-
+@media screen and (max-width: 992px) {
+  .card{
+    width: 50%;
+  }
+  @media screen and (max-width: 768px) {
+    .card {
+      width: 100%;
+    }
 
 
 
