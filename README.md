@@ -8,4 +8,9 @@
 - while i am still learning i learned multiple need .css code to help shap my pages to be more apealing
 
 
+
+URL 
+
+PAGE: https://fordefam12.github.io/BRANDON-PORTFOLIO/
 ![screenshot](screenshot.png)
+
