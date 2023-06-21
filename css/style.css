@@ -36,12 +36,13 @@ ul {display: flex;
 }
 section {
 
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    z-index: 2;
-    align-content: center;
-    justify-content: space-around;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  /* z-index: 2;
+  align-content: center; */
+  justify-content: space-around;
+}
 }
 
 div{
