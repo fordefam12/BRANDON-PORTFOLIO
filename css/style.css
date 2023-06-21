@@ -9,7 +9,7 @@ html {
 }
 
 nav {display: flex;
-  background-color: aqua;
+  /* background-color: aqua; */
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
@@ -27,28 +27,32 @@ body {
 
 ul {display: flex;
   justify-content: space-between;
-  background-color: aqua;
+  /* background-color: aqua; */
   text-decoration-line: underline;
   /* border: 1px solid red; */
   width: 60%;
   
   
 }
-section {
-
+/* section { */
+/* 
   display: flex;
   flex-direction: column-reverse;
   align-items: center;
   /* z-index: 2;
   align-content: center; */
-  justify-content: space-around;
+  /* justify-content: space-around;
   box-sizing: border-box;
-}
+} */ 
 
+
+.display-flex {
+  display:flex;
+}
 
 div p{
   box-sizing: border-box;
-  border: 1px solid red;
+  
 }
 
 
@@ -57,10 +61,9 @@ div p{
 article {
   display: flex;
   color: rgb(0, 60, 255);
-  padding: 2%;
   justify-content: flex-end;
-  border: 1px solid red;
-  b
+  
+  
 }
 
   img {
@@ -68,15 +71,22 @@ article {
     margin-left: auto;
     margin-right: auto;
     height: 50px;
-    width: 50%
+    width: 50%;
    
   
+  }
+  aside {
+	border-radius: 0;
+border-color: rgb(31, 25, 25);
+border-width: 0 5px 0 0;
+border-style: none solid none none;
+border-radius: 7px 3px 8px 9px;
   }
 
 
 li {
   display: flex;
-  /* justify-content: space-around; */
+  justify-content: space-around;
   padding: 2%;
 
 
@@ -88,11 +98,11 @@ h1 {display: inline;
 }
 h2 {
   display: flex;
-  justify-content: flex-start;
+  justify-content: space-between;
 
 }
 p{
-  padding: 2px;
+  padding: 7px;
   
 }
 div {
@@ -106,7 +116,6 @@ div {
     /* sets height for full screen size of all devices */
     width: 100%;
     background-image: url("../images/banner.jpg");
-    border: 1px solid orange;
     height: 100px;
     display: flex;
     /* up and down  */
@@ -116,7 +125,6 @@ div {
     height: 80%;
     width: auto;
     width: 100%;
-    border: 1px solid orange;
     height: 100px;
     justify-content: flex-end;
 
@@ -128,10 +136,13 @@ div {
   border-style: solid;
   border-width: 1px;
   padding: 10px;
-  float: left;
-  width: 25%;
+  width: 50%;
    
     
+}
+.big-card {
+	width: 100%;
+	display: block;
 }
 
 .hero-text-box {
@@ -140,6 +151,23 @@ div {
     font-size: 1rem;
     
 }
+@media screen and (max-width: 992px) {
+	.card{
+	  width: 50%;
+	}
+	}
+	@media screen and (max-width: 768px) {
+	  .card {
+		width: 100%;
+	  }
+	}
+
+
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
 
 .hero-heading {
 
@@ -153,16 +181,7 @@ div {
     height: 33%;
     margin-top: auto;
 }
-@media screen and (max-width: 992px) {
-  .card{
-    width: 50%;
-  }
-  }
-  @media screen and (max-width: 768px) {
-    .card {
-      width: 100%;
-    }
-  }
+
 
 
 /* desktop */
