@@ -42,9 +42,12 @@ ul {display: flex;
   justify-content: flex-start;
 }
 
-div p{
+div {
   box-sizing: border-box;
-
+  height: 50px;
+  display: block;
+  padding: 2%;
+margin: 0%;
   
 }
 
@@ -107,8 +110,13 @@ div {
 img:hover {
   transform: scaleX(-1);}
 
+  b {
+    display: flex;
+    
+  }
 
-  
+
+
 .hero-image-box {
     /* sets height for full screen size of all devices */
     width: 100%;
