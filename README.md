@@ -12,5 +12,5 @@
 URL 
 
 PAGE: https://fordefam12.github.io/BRANDON-PORTFOLIO/
-![screenshot](screenshot.png)
+![screenshot](./images/screenshot.png)
 
